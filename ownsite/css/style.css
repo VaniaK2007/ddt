@@ -1,0 +1,248 @@
+header {
+    background-image: url(../img/headerbackground.svg);
+
+     background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    height: 550px;
+
+    width: auto;
+}
+
+.head-img{
+    width: 150px;
+    border-radius: 100%;
+}
+
+.btn-itd {
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+header h2 {
+    color: #C71111;
+}
+
+main h1 {
+    color: #1043E9;
+}
+
+.head-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-itd {
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.custom-border {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.section-header {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.image-placeholder img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gr-itd {
+    background: linear-gradient(to bottom right, #80D1F5, #D1B2F0, #C0E9B5);
+}
+
+.admin-img {
+    width: 174px;
+    
+}
+
+.gb-imgt {
+    background-image: url(../img/zd3.jpg);
+
+     background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    height: auto;
+
+    width: auto;
+
+    border-radius: 40px;
+}
+
+.gb-imgs {
+    background-image: url(../img/zd2.jpg);
+
+     background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    height: auto;
+
+    width: auto;
+
+    border-radius: 40px;
+}
+
+.gb-imgf {
+    background-image: url(../img/zd1.jpg);
+
+     background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    height: auto;
+
+    width: auto;
+
+    border-radius: 40px;
+}
+
+.dlbeby {
+    height: 200px;
+}
+
+.dbl1 {
+    background-image: url(../img/fmz1.png);
+
+     background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    height: auto;
+
+    width: auto;
+
+    border-radius: 40px;
+}
+
+.dbl2 {
+    background-image: url(../img/fmz2.png);
+
+     background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    height: auto;
+
+    width: auto;
+
+    border-radius: 40px;
+}
+
+.dbl3 {
+    background-image: url(../img/fmz3.png);
+
+     background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    height: auto;
+
+    width: auto;
+
+    border-radius: 40px;
+}
+
+.dbl4 {
+    background-image: url(../img/fmz4.png);
+
+     background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    height: auto;
+
+    width: auto;
+
+    border-radius: 40px;
+}
+
+.dbl5 {
+    background-image: url(../img/fmz5.png);
+
+     background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    height: auto;
+
+    width: auto;
+
+    border-radius: 40px;
+}
+
+.dbl6 {
+    background-image: url(../img/fmz6.png);
+
+     background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    height: auto;
+
+    width: auto;
+
+    border-radius: 40px;
+}
+
+.hd {
+    display: none;
+}
+
+@media (max-width: 1200px) and (min-width: 766px) {
+    .hd {
+        display: flex;
+    }
+
+    .hdo {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    header .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head-img {
+        margin-bottom: 15px;
+    }
+
+    .btn-itd {
+        margin-bottom: 10px;
+    }
+
+    .section-header {
+        font-size: 1.5rem;
+    }
+}
